@@ -23,7 +23,7 @@ def cloud(image, text, max_word, max_font, random):
     st.pyplot()
     
 def main():
-    st.write("# WordCloud Text Summary")
+    st.write("# WordCloud Text Summary Generation")
     max_word = st.sidebar.slider("Max words", 50, 1000, 50)
     max_font = st.sidebar.slider("Max Font Size", 50, 200, 50)
     random = st.sidebar.slider("Random State", 20, 100, 40 )
